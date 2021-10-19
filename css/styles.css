@@ -269,6 +269,11 @@ img {
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
+/* Стили секции клиентов */
+.section-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* Стили кнопок портфолио */
 .nav-portfolio {
   display: flex;
