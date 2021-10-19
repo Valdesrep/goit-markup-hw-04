@@ -191,7 +191,8 @@ img {
 }
 /* /// */
 .features-item:not(:last-child) {
-  margin-right}
+  margin-right: 30px;
+}
 .features-title {
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
