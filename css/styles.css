@@ -442,7 +442,7 @@ img {
 
 .social-network {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .sosial-network-link {
@@ -464,8 +464,6 @@ img {
   background-color: var(--accent-color);
 }
 .conect {
-  text-align: center;
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
