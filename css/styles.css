@@ -286,15 +286,14 @@ img {
   justify-content: center;
 }
 .team-link-icon {
-  display: inline-block;
+  display: flex;
   background-color: var(--primary-white-color);
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  align-items: center;
+  color: #afb1b8;
   justify-content: center;
-  color: #AFB1B8;
-  margin-top: 16px;
+  align-items: center;
 }
 .team-item-icon:not(:last-child) {
   margin-right: 10px;
@@ -302,13 +301,12 @@ img {
 .team-link-icon:hover,
 .team-link-icon:focus {
   background-color: var(--accent-color);
-  color:  var(--primary-white-color);
+  color: var(--primary-white-color);
 }
 .team-icon {
   width: 20px;
   height: 20px;
-  margin-top: 16px;
-  fill: currentColor
+  fill: currentColor;
 }
 .description {
   padding-top: 30px;
@@ -327,6 +325,7 @@ img {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
 }
 /* Стили секции клиентов */
 .section-clients {
@@ -337,7 +336,8 @@ img {
   display: flex;
   justify-content: center;
 }
-.clients-item {
+.clients-item-link {
+  display: inline-block;
   fill: rgba(175, 177, 184, 1);
   border: solid rgba(175, 177, 184, 1) 1px;
   padding: 16px 32px;
@@ -346,8 +346,8 @@ img {
 .clients-item:not(:last-child) {
   margin-right: 30px;
 }
-.clients-item:hover,
-.clients-item:focus {
+.clients-item-link:hover,
+.clients-item-link:focus {
   fill: rgba(33, 150, 243, 1);
   border-color: rgba(33, 150, 243, 1);
   cursor: pointer;
@@ -431,9 +431,39 @@ img {
   padding-bottom: 60px;
   padding-top: 60px;
 }
-.footer-flex {
+.social-network {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.sosial-network-link {
+  display: flex;
+  fill: var(--primary-white-color);
+  background-color: var(--primary-text-color);
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  border-radius: 50%;
+  align-items: center;
+}
+.social-network-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.sosial-network-link:hover,
+.sosial-network-link:focus {
+  background-color: var(--accent-color);
+}
+.conect {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  margin-bottom: 20px;
 }
 .contact-item:not(:last-child) {
   margin-bottom: 9px;
