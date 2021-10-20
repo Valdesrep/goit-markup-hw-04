@@ -431,6 +431,12 @@ img {
   padding-bottom: 60px;
   padding-top: 60px;
 }
+.footer-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+.footer-container-box:not(:last-child){margin-right: 70px;}
 .social-network {
   display: flex;
   justify-content: center;
