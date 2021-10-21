@@ -122,7 +122,6 @@ img {
   align-items: center;
   margin-left: auto;
 }
-
 .contacts-item {
   display: inline-flex;
   fill: var(--primary-text-color);
@@ -130,9 +129,6 @@ img {
 }
 .contact-icon {
   margin-right: 10px;
-}
-.contacts-link-icon {
-  margin-left: 10px;
 }
 .contacts-item:not(:last-child) {
   margin-right: 50px;
